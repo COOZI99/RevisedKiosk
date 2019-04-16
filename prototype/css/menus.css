@@ -1,0 +1,134 @@
+.sideBarTab {
+    width: 210px;
+    height: 45px;
+    position: fixed;
+    border-radius: 10%;
+}
+
+#sideTab1 {
+    top: 185px;
+    left: 55px;
+}
+
+#sideTab2 {
+    top: 230px;
+    left: 55px;
+}
+
+#sideTab3 {
+    top: 275px;
+    left: 55px;
+}
+
+#sideTab4 {
+    top: 300px;
+    left: 55px;
+}
+
+#sideTab5 {
+    top: 350px;
+    left: 55px;
+}
+
+#sideTab6 {
+    top: 395px;
+    left: 55px;
+}
+
+.prices {
+    font-size: 20pt;
+}
+
+#checkoutButton {
+    width: 174px;
+    height: 55px;
+    position: fixed;
+    top: 91px;
+    left: 749px;
+}
+
+.menuitem {
+    width: 193px;
+    height: 158px;
+    position: fixed;
+    cursor: pointer;
+}
+
+#item1 {
+    top: 160px;
+    left: 290px;
+}
+
+#item2 {
+    top: 160px;
+    left: 510px;
+}
+
+#item3 {
+    top: 160px;
+    left: 730px;
+}
+
+#item4 {
+    top: 410px;
+    left: 290px;
+}
+
+#item5 {
+    top: 410px;
+    left: 510px;
+}
+
+#item6 {
+    top: 410px;
+    left: 730px;
+}
+
+.checkbox {    
+    width: 28px;
+    height: 25px;
+    position: fixed;
+}
+
+#vegan {
+    top: 520px;
+    left: 160px;
+}
+
+#veggie {
+    top: 568px;
+    left: 198px;
+}
+
+#gf {
+    top: 618px;
+    left: 201px;
+}
+
+/**burger menu only**/
+.scroll {
+    width: 22px;
+    cursor: pointer;
+    position: fixed;
+    left: 938px;
+}
+
+#scrollDown1 {
+    height: 360px;
+    top: 262px;
+}
+
+#scrollUp1 {
+    height: 190px;
+    top: 160px;
+}
+
+#scrollDown2 {
+    height: 200px;
+    top: 420px;
+}
+
+#scrollUp2 {
+    height: 360px;
+    top: 167px;
+}

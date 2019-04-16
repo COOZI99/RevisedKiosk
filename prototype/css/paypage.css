@@ -1,0 +1,24 @@
+#helpButton {
+    cursor: pointer;
+    width: 109px;
+    height: 52px;
+    position: fixed;
+    top: 170px;
+    left: 60px;
+}
+
+#back {
+    width: 130px;
+    height: 53px;
+    position: fixed;
+    top: 88px;
+    left: 60px;
+}
+
+ #phoneNum {
+    position: fixed;
+    top: 517px;
+    left: 130px;
+    font-size: 20px;
+    display: none;
+}

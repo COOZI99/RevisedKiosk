@@ -1,0 +1,99 @@
+#orderSummary {
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    font-size: 16pt;
+}
+
+.orders {
+    margin: 14px;
+}
+
+#tip1 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 310px;
+    left: 75px;
+    border-radius: 50%;
+}
+
+#tip2 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 310px;
+    left: 162px;
+    border-radius: 50%;
+}
+
+#tip3 {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 310px;
+    left: 250px;
+    border-radius: 50%;
+}
+
+#cstmtip {
+    position: fixed;
+    left: 160px;
+    top: 425px;
+    width: 147px;
+    height: 24px;
+    border-width: 0px;
+}
+
+.removeButton {
+    position: fixed;
+    left: 916px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(226, 45, 45, 0.6);
+}
+
+#remove1 {
+    top: 205px;
+}
+
+#remove2 {
+    top: 245px;
+}
+
+#remove3 {
+    top: 285px;
+}
+
+#remove4 {
+    top: 325px;
+}
+
+#helpButton {
+    cursor: pointer;
+    width: 109px;
+    height: 52px;
+    position: fixed;
+    top: 583px;
+    left: 70px;
+}
+
+#back {
+    width: 130px;
+    height: 53px;
+    position: fixed;
+    top: 98px;
+    left: 70px;
+}
+
+#pay {
+    width: 89px;
+    height: 60px;
+    position: fixed;
+    top: 596px;
+    left: 852px;
+}

@@ -1,0 +1,44 @@
+#foodName {
+    display: none;
+    position: fixed;
+    left: 100px;
+    top: 370px;
+    background-color: white;
+    font-size: 30pt;
+}
+
+#foodDescription {
+    display: none;
+    width: 460px;
+    top: 160px;
+    position: fixed;
+    left: 430px;
+    background-color: white;
+    font-size: 18pt;
+    border-radius: 15%;
+}
+
+#helpButton {
+    cursor: pointer;
+    width: 107px;
+    height: 52px;
+    position: fixed;
+    top: 576px;
+    left: 220px;
+}
+
+#back {
+    width: 125px;
+    height: 53px;
+    position: fixed;
+    top: 576px;
+    left: 76px;
+}
+
+#finalize {
+    width: 178px;
+    height: 53px;
+    position: fixed;
+    top: 498px;
+    left: 110px;
+}

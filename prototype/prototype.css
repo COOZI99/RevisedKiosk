@@ -1,0 +1,21 @@
+img {
+	width: 1000px;
+}
+
+#helpButton {
+	cursor: pointer;
+	width: 107px;
+	height: 52px;
+	position: fixed;
+	top: 91px;
+	left: 290px;
+}
+
+#backButton {
+	cursor: pointer;
+	width: 63px;
+	height: 63px;
+	position: fixed;
+	top: 78px;
+	left: 206px;
+}
