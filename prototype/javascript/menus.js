@@ -1,7 +1,28 @@
 var menuItems  = {
-    "dailySpecial": {
-        name: "Daily Special",
-        description: "A unique cuisine served by our finest chefs"
+    // Regular Appetizers Menu
+    "beefSkewers": {
+        name: "Beef Skewers",
+        description: ""
+    },
+    "veggiePlatter": {
+        name: "Veggie Platter",
+        description: ""
+    }, 
+    "spnchNrtichk": {
+        name: "Spinach and Artichoke Dip",
+        description: ""
+    },
+    "nchsNchps": {
+        name: "Nachos and Chips",
+        description: ""
+    },
+    "basilFries": {
+        name: "Basil Fries",
+        description: ""
+    },
+    "shrmpCocktail": {
+        name: "Shrimp Cocktail",
+        description: ""
     }
 };
 

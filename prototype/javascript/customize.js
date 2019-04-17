@@ -33,7 +33,7 @@ var storeMenuItem = function(divElementId) {
 
         localStorage.setItem("Order", currentList);
         console.log("Order Added!: " + currentList);
-        document.location.href = "specialsMenu.html";
+        document.location.href = "sidesMenu.html";
     });
 }
 
