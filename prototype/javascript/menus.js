@@ -2,57 +2,57 @@ var menuItems  = {
     // Regular Appetizers Menu
     "beefSkewers": {
         name: "Beef Skewers",
-        description: ""
+        description: "Beef, Stick"
     },
     "veggiePlatter": {
         name: "Veggie Platter",
-        description: ""
+        description: "Carrots, Broccoli, Cucumbers, Celery"
     }, 
     "spnchNrtichk": {
         name: "Spinach and Artichoke Dip",
-        description: ""
+        description: "Spinach, Artichokes, and Cheese. Served with a side of chips."
     },
     "nchsNchps": {
-        name: "Nachos and Chips",
-        description: ""
+        name: "Nachos",
+        description: "Melted American Cheese and Chips"
     },
     "basilFries": {
         name: "Basil Fries",
-        description: ""
+        description: "Basil, fried to a crisp"
     },
     "shrmpCocktail": {
         name: "Shrimp Cocktail",
-        description: ""
+        description: "Shrimp, Alcohol, Lemon"
     },
     // Regular Burger Menu1
     "deluxeBurger": {
         name: "Deluxe Burger",
-        description: ""
+        description: "Two Hamburger Patties, Lettuce, Tomato, Onions, Pickles, and Olives. All served on two Sesame Seed buns."
     },
     "cheeseBurger": {
         name: "Cheese Burger",
-        description: ""
+        description: "One Hamburger Patty and Melted American Cheese. All served on two Sesame Seed buns."
     },
     "grlchknBurger": {
         name: "Grilled Chicken Burger",
-        description: ""
+        description: "One Grilled Chicked Patty, Lettuce, Tomatos, and Pickles. All served on two Sesame Seed buns."
     },
     "baconBurger": {
         name: "Bacon Burger",
-        description: ""
+        description: "One Hamburger Patty, Three Strips of Bacon, Mushrooms, and melted American Cheese. All served on two Sesame Seed buns."
     },
     "stfedBBQBurger": {
         name: "Stuffed BBQ Burger",
-        description: ""
+        description: "One Hamburger Patty covered in Barbeque Sauce with Onions. All served on two Sesame Seed buns."
     },
     "smashBurger": {
         name: "Smash Burger",
-        description: ""
+        description: "One Hamburger, smashed into little bits. Served in along with a pile of Sesame Seed bun chunks."
     },
     // Regular Burger Menu2
     "chknSndwchCmb": {
         name: "Chicken Sandwich Combo",
-        description: ""
+        description: "One Grilled Chicked Patty, Lettuce, Tomatos, and Pickles. All served on two Sesame Seed buns with a fried and a drink."
     },
     "regBurgMl": {
         name: "Regular Burger Meal",
