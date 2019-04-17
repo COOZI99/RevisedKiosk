@@ -8,8 +8,13 @@ var menuItems  = {
 
 // Setting up the Document
 document.addEventListener("DOMContentLoaded", function(event) {
-    // menuItem("cheeseBurger");
-    // menuItem("deluxeBurger");
+    // Adds Event Listeners to each displayed menu item for the given menu
+    for (var i=1; i<=6; i++) {
+        var divId = "item" + i;
+        if (document.getElementById(divId) !== null) {
+            storeMenuItem(divId);
+        }
+    }
 
     displayWhichSideTab();
 });
@@ -33,49 +38,42 @@ var menuItem = function(areaElementId) {
 // Highlights the current sidebar tab that the customer is on
 var displayWhichSideTab  = function() {
     var url = window.location.pathname;
+    console.log(url);
     var filename = url.substring(url.lastIndexOf('/')+1);
+
     console.log(filename);
 
-    if (filename.includes("specials")) {
+    if (filename.includes("sides")) {
         var _element = document.getElementById("sideTab1");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
     }
-    else if(filename.includes("sides")) {
+    else if(filename.includes("burger")) {
         var _element = document.getElementById("sideTab2");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
     }
-    else if(filename.includes("lunch")) {
+    else if(filename.includes("beverage")) {
         var _element = document.getElementById("sideTab3");
-        _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
-        _element.style.display = "block";
-    }
-    else if(filename.includes("dinner")) {
-        var _element = document.getElementById("sideTab4");
-        _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
-        _element.style.display = "block";
-    }
-    else if (filename.includes("dessert")) {
-        var _element = document.getElementById("sideTab5");
-        _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
-        _element.style.display = "block";
-    }
-    else if (filename.includes("beverage")) {
-        var _element = document.getElementById("sideTab6");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
     }
 }
 
 
-var storeMenuItem = function(itemName) {
-    var foodName = menuItems[itemName].name;
-    var foodDescription = menuItems[itemName].description;
+var storeMenuItem = function(divElementId) {
+    var _element = document.getElementById(divElementId);
 
-    localStorage.setItem("FoodName", foodName);
-    localStorage.setItem("FoodDescription", foodDescription);
+    _element.addEventListener('click', function() {
+        var itemName = _element.firstElementChild.id;
 
-    document.location.href = "customization.html";
-} 
+        var foodName = menuItems[itemName].name;
+        var foodDescription = menuItems[itemName].description;
+
+        localStorage.setItem("FoodName", foodName);
+        localStorage.setItem("FoodDescription", foodDescription);
+
+        document.location.href = "customization.html";
+    });
+}
 
