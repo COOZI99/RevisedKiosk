@@ -23,6 +23,31 @@ var menuItems  = {
     "shrmpCocktail": {
         name: "Shrimp Cocktail",
         description: ""
+    },
+    // Regular Burger Menu1
+    "deluxeBurger": {
+        name: "Deluxe Burger",
+        description: ""
+    },
+    "cheeseBurger": {
+        name: "Cheese Burger",
+        description: ""
+    },
+    "grlchknBurger": {
+        name: "Grilled Chicken Burger",
+        description: ""
+    },
+    "baconBurger": {
+        name: "Bacon Burger",
+        description: ""
+    },
+    "stfedBBQBurger": {
+        name: "Stuffed BBQ Burger",
+        description: ""
+    },
+    "smashBurger": {
+        name: "Smash Burger",
+        description: ""
     }
 };
 
