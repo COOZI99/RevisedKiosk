@@ -48,9 +48,60 @@ var menuItems  = {
     "smashBurger": {
         name: "Smash Burger",
         description: ""
+    },
+    // Regular Burger Menu2
+    "chknSndwchCmb": {
+        name: "Chicken Sandwich Combo",
+        description: ""
+    },
+    "regBurgMl": {
+        name: "Regular Burger Meal",
+        description: ""
+    },
+    "vegDDlx": {
+        name: "Veggie Delight Deluxe",
+        description: ""
+    },
+    "burgDogMl": {
+        name: "Burger Dog Meal",
+        description: ""
+    },
+    "dlxBurgTwr": {
+        name: "Deluxe Burger Tower",
+        description: ""
+    },
+    "grassfedburg": {
+        name: "Grass Fed Burger",
+        description: ""
+    },
+    // Regular Beverage Menu
+    "water": {
+        name: "Water",
+        description: ""
+    },
+    "sprite": {
+        name: "Sprite",
+        description: ""
+    },
+    "OJ": {
+        name: "Orange Juice",
+        description: ""
+    },
+    "beer": {
+        name: "Beer",
+        description: ""
+    },
+    "redWine": {
+        name: "Red Wine",
+        description: ""
+    },
+    "coconut": {
+        name: "Coconut",
+        description: ""
     }
 };
 
+var filename = "";
 
 // Setting up the Document
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -85,21 +136,21 @@ var menuItem = function(areaElementId) {
 var displayWhichSideTab  = function() {
     var url = window.location.pathname;
     console.log(url);
-    var filename = url.substring(url.lastIndexOf('/')+1);
+    filename = url.substring(url.lastIndexOf('/')+1);
 
     console.log(filename);
 
-    if (filename.includes("sides")) {
+    if (filename.includes("sides") || filename.includes("Sides")) {
         var _element = document.getElementById("sideTab1");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
     }
-    else if(filename.includes("burger")) {
+    else if(filename.includes("burger") || filename.includes("Burger")) {
         var _element = document.getElementById("sideTab2");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
     }
-    else if(filename.includes("beverage")) {
+    else if(filename.includes("beverage") || filename.includes("Bev")) {
         var _element = document.getElementById("sideTab3");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
@@ -119,7 +170,13 @@ var storeMenuItem = function(divElementId) {
         localStorage.setItem("FoodName", foodName);
         localStorage.setItem("FoodDescription", foodDescription);
 
-        document.location.href = "customization.html";
+        if (filename.includes("Burger") || filename.includes("Bev") ||
+        filename.includes("Sides")) {
+            document.location.href = "../customization.html";
+        }
+        else {
+            document.location.href = "customization.html";
+        }
     });
 }
 

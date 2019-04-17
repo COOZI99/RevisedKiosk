@@ -68,14 +68,16 @@ var encodeOrder = function(orders) {
     var summary = "";
 
     for (order in orders) {
-        var count = orders[order];
-        for (var i=0; i<count; i++) {
-            var name = order.replace(" ", "-");
-            if (summary.length === 0) {
-                summary = order;
-            }
-            else {
-                summary += "," + order;
+        if (order !== "") {
+            var count = orders[order];
+            for (var i=0; i<count; i++) {
+                var name = order.replace(" ", "-");
+                if (summary.length === 0) {
+                    summary = order;
+                }
+                else {
+                    summary += "," + order;
+                }
             }
         }
     }

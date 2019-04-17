@@ -25,7 +25,13 @@ var storeMenuItem = function(divElementId) {
             currentList += "," + value;
         }
 
-        var listSize = currentList.split(",").length;
+        var list = currentList.split(",");
+        var listSize = list.length;
+        for (var i=0; i<list.length; i++) {
+            if (list[i].length === 0) {
+                listSize--;
+            }
+        }
         if (listSize > 4) {
             window.alert("Sorry, this Kiosk is for quick orders. You may only select up to 4 items");
             return;
