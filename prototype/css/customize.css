@@ -54,3 +54,31 @@
     background-color: white;
     display: none;
 }
+
+.option, .slider {
+    position: fixed;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+}
+
+#cheese {
+    top: 380px;
+    left: 490px;
+}
+
+#mushroom {
+    top: 385px;
+    left: 655px;
+}
+
+#ketchup {
+    top: 515px;
+    left: 820px;
+}
+
+#mayo {
+    left: 820px;
+    top: 550px;
+}
+
