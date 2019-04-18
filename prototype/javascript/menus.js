@@ -102,6 +102,7 @@ var menuItems  = {
 };
 
 var filename = "";
+var isCustomizable = "False";
 
 // Setting up the Document
 document.addEventListener("DOMContentLoaded", function(event) {
@@ -144,16 +145,19 @@ var displayWhichSideTab  = function() {
         var _element = document.getElementById("sideTab1");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
+        isCustomizable = "False";
     }
     else if(filename.includes("burger") || filename.includes("Burger")) {
         var _element = document.getElementById("sideTab2");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
+        isCustomizable = "True";
     }
     else if(filename.includes("beverage") || filename.includes("Bev")) {
         var _element = document.getElementById("sideTab3");
         _element.style.backgroundColor = "rgb(241, 244, 39, 0.6)";
         _element.style.display = "block";
+        isCustomizable = "False";
     }
 }
 
@@ -169,6 +173,7 @@ var storeMenuItem = function(divElementId) {
 
         localStorage.setItem("FoodName", foodName);
         localStorage.setItem("FoodDescription", foodDescription);
+        localStorage.setItem("isCustomizable", isCustomizable);
 
         if (filename.includes("Burger") || filename.includes("Bev") ||
         filename.includes("Sides")) {

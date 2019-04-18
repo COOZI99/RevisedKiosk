@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         writeNameAndDescription(name, description);
     }
     storeMenuItem("finalize");
+    var isCustomizable = localStorage.getItem("isCustomizable");
+    displayCustomization(isCustomizable);
 });
 
 // Stores the menuItem in the order if there is still room in the cart
@@ -52,4 +54,11 @@ var writeNameAndDescription = function(name, description) {
     _description.innerHTML = description;
     _name.style.display = "block";
     _description.style.display = "block";
+}
+
+var displayCustomization = function(isCustomizable) {
+    if (isCustomizable === "False") {
+        var _element = document.getElementById("blockCustomize");
+        _element.style.display = "block";
+    }
 }
