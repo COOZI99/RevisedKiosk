@@ -2,11 +2,11 @@ var menuItems  = {
     // Regular Appetizers Menu
     "beefSkewers": {
         name: "Beef Skewers",
-        description: "Beef, Stick"
+        description: "Delicious wood-smoked beef skewered for easy eating and tastiness."
     },
     "veggiePlatter": {
         name: "Veggie Platter",
-        description: "Carrots, Broccoli, Cucumbers, Celery"
+        description: "Plate of stir-fried Carrots, Broccoli, Cucumbers, and Celery in a creamy sauce"
     }, 
     "spnchNrtichk": {
         name: "Spinach and Artichoke Dip",
@@ -18,7 +18,7 @@ var menuItems  = {
     },
     "basilFries": {
         name: "Basil Fries",
-        description: "Basil, fried to a crisp"
+        description: "Fries fried to a crisp with a soft and fluffy inside, topped with salt, pepper, and basil."
     },
     "shrmpCocktail": {
         name: "Shrimp Cocktail",
@@ -56,48 +56,48 @@ var menuItems  = {
     },
     "regBurgMl": {
         name: "Regular Burger Meal",
-        description: ""
+        description: "Our state-famous cheese burger with your side of drink and basil fries."
     },
     "vegDDlx": {
         name: "Veggie Delight Deluxe",
-        description: ""
+        description: "Home-baked gluten-free egg buns with a black-bean and mushroom-based patty. Vegan and Gluten-free."
     },
     "burgDogMl": {
         name: "Burger Dog Meal",
-        description: ""
+        description: "Frankenstein's monster of a hamburger and a hotdog in one. What more is there to say?"
     },
     "dlxBurgTwr": {
         name: "Deluxe Burger Tower",
-        description: ""
+        description: "Not for the faint of heart. Equivalent to 3 of our famous Deluxe Burgers"
     },
     "grassfedburg": {
         name: "Grass Fed Burger",
-        description: ""
+        description: "Burger that is guaranteed to have a beef patty made from 100% grass-fed cows."
     },
     // Regular Beverage Menu
     "water": {
         name: "Water",
-        description: ""
+        description: "Dihydrogen Monoxide"
     },
     "sprite": {
         name: "Sprite",
-        description: ""
+        description: "Lemon Lime Soda from Coca-Cola"
     },
     "OJ": {
         name: "Orange Juice",
-        description: ""
+        description: "Fresh-squeezed orange juice from our own personal farm. Guaranteed sweet or your money back."
     },
     "beer": {
         name: "Beer",
-        description: ""
+        description: "Home-brewed beer from our distillery in the city. Award winning for the last 5 years."
     },
     "redWine": {
         name: "Red Wine",
-        description: ""
+        description: "Red Wine aged to perfection and made with the best techniques."
     },
     "coconut": {
         name: "Coconut",
-        description: ""
+        description: "Coconuts shipped fresh every day from Hawaii. Sweet and refreshing!"
     }
 };
 
