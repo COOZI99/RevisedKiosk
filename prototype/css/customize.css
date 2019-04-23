@@ -62,6 +62,10 @@
     height: 25px;
 }
 
+.slider {
+    width: 70px;
+}
+
 #cheese {
     top: 380px;
     left: 490px;
@@ -72,6 +76,47 @@
     left: 655px;
 }
 
+#lettuce {
+    top: 395px;
+    left: 815px;
+}
+
+#tomato {
+    top: 520px;
+    left: 490px;
+}
+
+#buns {
+    top: 515px;
+    left: 655px
+
+}
+
+#cheeseSlider {
+    top: 440px;
+    left: 405px;
+}
+
+#mushroomSlider {
+    top: 445px;
+    left: 580px
+}
+
+#lettuceSlider {
+    top: 446px;
+    left: 746px;
+}
+
+#tomatoSlider {
+    top: 570px;
+    left: 409px;
+}
+
+#bunsSlider {
+    top: 572px;
+    left: 581px;
+}
+
 #ketchup {
     top: 515px;
     left: 820px;
@@ -80,5 +125,10 @@
 #mayo {
     left: 820px;
     top: 550px;
+}
+
+#sriracha {
+    left: 820px;
+    top: 585px;
 }
 
