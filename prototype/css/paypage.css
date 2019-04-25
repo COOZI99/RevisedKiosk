@@ -22,3 +22,25 @@
     font-size: 20px;
     display: none;
 }
+
+.method {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#phone {
+    top: 507px;
+    left: 60px;
+}
+
+#email {
+    top: 557px;
+    left: 60px;
+}
+
+#print {
+    top: 607px;
+    left: 60px;
+}
