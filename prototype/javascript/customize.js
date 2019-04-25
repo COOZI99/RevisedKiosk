@@ -49,11 +49,19 @@ var storeMenuItem = function(divElementId) {
 var writeNameAndDescription = function(name, description) {
     var _name = document.getElementById("foodName");
     var _description = document.getElementById("foodDescription");
+	var _ketchupMeter = document.getElementById("ketchupMeter");
+	_ketchupMeter.addEventListener("click", changeGauge);
+	var _mayoMeter = document.getElementById("mayoMeter");
+	_mayoMeter.addEventListener("click", changeGauge);
+	var _srirachaMeter = document.getElementById("srirachaMeter");
+	_srirachaMeter.addEventListener("click", changeGauge);
 
     _name.innerHTML = name;
     _description.innerHTML = description;
     _name.style.display = "block";
     _description.style.display = "block";
+	
+		
 }
 
 var displayCustomization = function(isCustomizable) {
@@ -61,4 +69,16 @@ var displayCustomization = function(isCustomizable) {
         var _element = document.getElementById("blockCustomize");
         _element.style.display = "block";
     }
+}
+
+var changeGauge = function() {
+	var src = this.src.slice(-10);
+	
+	if(src == "gauge1.png") {
+		this.src = "images\\Pm6Redesign\\gauge2.png";
+	} else if (src == "gauge2.png") {
+		this.src = "images\\Pm6Redesign\\gauge3.png";
+	} else if (src == "gauge3.png") {
+		this.src = "images\\Pm6Redesign\\gauge1.png";
+	} 
 }
