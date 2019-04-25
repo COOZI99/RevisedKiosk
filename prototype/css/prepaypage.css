@@ -1,0 +1,25 @@
+#helpButton {
+    cursor: pointer;
+    width: 109px;
+    height: 52px;
+    position: fixed;
+    top: 170px;
+    left: 60px;
+}
+
+#back {
+    width: 130px;
+    height: 53px;
+    position: fixed;
+    top: 88px;
+    left: 60px;
+}
+
+ #paymentmade {
+    cursor: pointer;
+    width: 404px;
+    height: 414px;
+    position: fixed;
+    top: 244px;
+    left: 295px;
+}
